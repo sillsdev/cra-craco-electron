@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+export const isElectron = (window as any)?.electron;
+
+if (isElectron) {
+  console.log(`Running in Electron: Filesystem access is enabled.`);
+} else {
+  console.log('Running on the Web, Filesystem access disabled.');
+}
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

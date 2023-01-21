@@ -1,0 +1,15 @@
+Source: cra-craco-electron
+Section: miscellaneous
+Priority: extra
+Maintainer: Ls Developer <ls_developer@sil.org>
+Build-Depends: debhelper (>= 7),libsecret-1-dev
+Standards-Version: 3.9.7
+Homepage: www.sil.org
+Vcs-Git: git://github.com/sillsdev/cra-craco-electron.git
+Vcs-Browser: http://github.com/sillsdev/cra-craco-electron/
+
+Package: cra-craco-electron
+Architecture: all
+Depends: 
+Recommends:
+Description: Bootstrap a cross platform project.

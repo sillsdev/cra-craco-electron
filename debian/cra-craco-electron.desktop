@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=CRA Craco Electron
+Name[fr]=CRA Craco Electron
+Comment=Bootstrap a cross platform project.
+Comment[fr]=Lancez un projet multiplateforme.
+Exec=/usr/bin/cra-craco-electron
+Icon=cra-craco-electron
+Categories=GTK;GNOME;Education;
+Terminal=false
